@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int a=11, b=3 , c=121 , n=0;
+	
+	if( b ++== 4 && ++c == -81 || ++a == 10 )
+	{
+		n++;		
+	}
+	if( a != 12 || b > 5 || c <= 145 )
+	{
+		n += b++ ;
+	}
+	if( c <= 45 || a >= 5 || b -- == 4 )
+	{
+		n *= ++a ;
+	}
+	
+	cout<<"a= "<<a<<"\tb= "<<b<<"\tc= "<<c<<"\nn= "<<n;
+	
+	
+	getche();
+}

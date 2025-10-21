@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+
+main()
+{
+	int c;
+	float a,b;
+	a=30.5;
+	a=40.4;
+	c=(int)a%(int)b;
+	cout<<"the value is "<<c;
+	
+}
+

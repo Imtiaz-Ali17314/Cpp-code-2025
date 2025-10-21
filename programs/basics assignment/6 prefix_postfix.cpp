@@ -1,0 +1,34 @@
+ #include<iostream.h>
+ #include<conio.h>
+ main()
+ 
+ {
+ 	
+ 	int num1,num2,num3;
+ 	
+ 	num1=1;   num2=5;   num3=10;   
+ 	
+ 	
+ 	num1=num1++;
+ 	
+ 	cout<<num1<<endl;//num1=2 
+ 	
+	num1=num1++;
+ 	
+ 	cout<<num1<<endl;//num1=2 
+ 	
+ 	num2=++num2;      // 
+ 	
+ 	cout<<num2<<endl;//num2=6 
+ 	
+ 	num3=num3++;
+ 	
+ 	cout<<num3<<endl;//num3=10 
+ 	
+	
+	num3=++num3;
+ 	
+ 	cout<<num3<<endl;//num3=11
+
+ 	getche();
+ }

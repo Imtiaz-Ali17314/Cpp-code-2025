@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int i,table , len;
+	
+	cout<<"Enter a number to get its table: ";
+	cin>>table;
+	cout<<"Enter table length: ";
+	cin>>len;
+	
+	for(i=1; i<=len; i++)
+	{
+		cout<<table<<"x"<<i<<"="<<table*i<<endl;
+	}
+	
+	
+	getche();
+}

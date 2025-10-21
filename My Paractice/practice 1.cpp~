@@ -1,0 +1,20 @@
+#include <iostream.h>
+#include <conio.h>
+
+main()
+{
+	// Write Your name using character variable
+	
+	char a='I';
+	char b='m';
+	char c='t';
+	char d='i';
+	char e='a';
+	char f='z';
+	char g='A';
+	char h='l';
+	char i='i';
+	
+	cout<<a<<b<<c<<d<<e<<f<<" "<<g<<h<<i;
+	getch();
+}

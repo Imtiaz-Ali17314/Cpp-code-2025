@@ -1,0 +1,34 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int a,b,c;
+	
+	cout<<"Enter three numbers: ";
+	cin>>a>>b>>c;
+	
+	if(a<b)
+	{
+		if(a<c)
+		{
+			cout<<"The smallest number is: "<<a;
+		}
+		else
+		{
+			cout<<"The smallest number is: "<<c;
+		}
+	}
+	else
+	{
+		if(b<c)
+		{	
+			cout<<"The smallest number is: "<<b;
+		}
+		else
+		{
+			cout<<"The smallest number is: "<<c;
+		}
+	}
+
+	getch();
+}

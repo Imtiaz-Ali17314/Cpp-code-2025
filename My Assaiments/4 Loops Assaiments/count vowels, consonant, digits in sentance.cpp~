@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+#include<stdlib.h>
+main()
+{
+	int 
+	
+	do
+	{
+	
+		
+		
+	}
+	while(ch!='.');
+
+	getche();
+}

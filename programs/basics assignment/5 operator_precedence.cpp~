@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+
+main()
+{
+	int a,b,c,d,e,cal;
+	
+	a=10,b=20,c=30,d=40,e=50;
+
+     cal=a*b/(-c*31%13)*d;
+	  cout<<cal<<endl;
+	
+	getch();
+}
+

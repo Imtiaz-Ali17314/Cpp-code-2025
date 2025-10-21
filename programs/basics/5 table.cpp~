@@ -1,0 +1,22 @@
+#include <iostream.h>
+#include <conio.h>
+
+  main()
+{
+  int y;
+  cout<<"enter a number to get its table";
+  cin>>y;
+
+ cout<<y<<"x"<<1<<"="<<y*1<<endl;
+ cout<<y<<"x"<<1<<"="<<y*2<<endl;
+ cout<<y<<"x"<<1<<"="<<y*3<<endl;
+ cout<<y<<"x"<<1<<"="<<y*4<<endl;
+ cout<<y<<"x"<<1<<"="<<y*5<<endl;
+ cout<<y<<"x"<<1<<"="<<y*6<<endl;
+ cout<<y<<"x"<<1<<"="<<y*7<<endl;
+ cout<<y<<"x"<<1<<"="<<y*8<<endl;
+ cout<<y<<"x"<<1<<"="<<y*9<<endl;
+ cout<<y<<"x"<<1<<"="<<y*10<<endl;
+ getch();
+}
+

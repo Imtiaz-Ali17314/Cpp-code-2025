@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int i,n ,p;
+	
+	cout<<"Enter a number: ";
+	cin>>n;
+	
+	p=1;
+	for(i=2; i<=n/2; i++)
+	{
+		if(n%i == 0)
+		{
+			p = 0;
+			break;
+		}
+	}
+	
+	if(p == 1)
+	{
+		cout<<n<<" is prime number.";	
+	}
+	else
+	{	
+		cout<<n<<" is composite number.";
+	}
+	
+	
+	getche();
+}

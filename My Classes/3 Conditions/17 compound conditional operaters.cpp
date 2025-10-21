@@ -1,0 +1,42 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int marks;
+	
+	cout<<"Enter marks: ";
+	cin>>marks;
+	
+	if(marks>100 || marks<0)
+	{
+		cout<<"Invalid marks";
+	}
+	else if(marks>=90)
+	{
+		cout<<"A";
+	}
+	else if(marks>=80)
+	{
+		cout<<"B";
+	}
+	else if(marks>=70)
+	{
+		cout<<"C";
+	}
+	else if(marks>=60)
+	{
+		cout<<"D";
+	}
+	else if(marks>=50)
+	{
+		cout<<"E";
+	}
+	else
+	{
+		cout<<"F";
+	}
+	
+	
+	
+	getche();
+}

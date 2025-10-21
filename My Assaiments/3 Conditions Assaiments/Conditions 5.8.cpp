@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int y;
+	
+	cout<<"Enter a year: ";
+	cin>>y;
+	
+	if(y%4 == 0)
+	{
+		cout<<y<<" is a leap year.";
+		
+	}
+
+	else
+	{
+		cout<<y<<" is not a leap year.";
+		
+	}
+	getch();
+}

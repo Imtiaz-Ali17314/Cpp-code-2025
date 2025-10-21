@@ -1,0 +1,31 @@
+#include <iostream.h>
+#include <conio.h>
+
+main()
+{
+	bool b;
+	b=0;         cout<<"b="<<b<<endl;
+	b=1;         cout<<"b="<<b<<endl;
+	b=true;      cout<<"b="<<b<<endl;
+	b=2;         cout<<"b="<<b<<endl;
+	b=3;         cout<<"b="<<b<<endl;
+	b=313;       cout<<"b="<<b<<endl;
+	cout<<endl<<endl;
+	
+	unsigned short ush;
+	cout<<"size of unsigned short  = "<<sizeof(ush)<<endl;
+	ush=0;    cout<<"ush="<<ush<<endl;
+	ush=250;    cout<<"ush="<<ush<<endl;
+	ush=26348;    cout<<"ush="<<ush<<endl;
+	ush=65535;    cout<<"ush="<<ush<<endl;
+	ush=65536;    cout<<"ush="<<ush<<endl;
+	ush=78526;    cout<<"ush="<<ush<<endl;
+	ush=-45;    cout<<"ush="<<ush<<endl;
+	ush=-6;    cout<<"ush="<<ush<<endl;
+	cout<<endl<<endl;
+	
+	
+	
+	
+	getch(); //Function
+}

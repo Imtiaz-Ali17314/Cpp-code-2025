@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+main()
+{
+	int i;
+	
+	cout<<"----------\na        b \n----------"<<endl;
+	i=1; 
+	while(i<=5)
+	{
+		cout<<i<<"       "<<6-i<<endl;
+		
+		
+		i++;
+	}
+
+	
+	getche();
+}

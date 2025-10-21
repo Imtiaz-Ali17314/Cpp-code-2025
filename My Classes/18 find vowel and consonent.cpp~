@@ -1,0 +1,30 @@
+#include <iostream.h>
+#include <conio.h>
+main()
+{
+	char ch ;
+	
+	cout<<"Enter a character to check whether it is vowel , Consonant , digit or any other symbol.";
+	ch = getche(); cout<<endl;
+	
+	if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+		ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'O' )
+	{
+		cout<<"Vowel";
+		
+	}
+	else if (ch >= 'A' && ch <= 'Z'  || ch >= 'a' && ch <= 'z' )
+	{
+		cout<<"consonant";
+	}
+	else if (ch >= '0' && ch <= '9')
+	{
+		cout<<"digit";
+	}
+	else
+	{
+		cout<<"Any other symbol";
+	}
+	
+	getche();
+}
