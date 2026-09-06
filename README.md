@@ -36,7 +36,7 @@ Cpp-code-2025/
 ## 🚀 Getting Started
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Imtiaz-Ali17314/Cpp-code-2025.git
+   git clone https://github.com/imtiazaly/Cpp-code-2025.git
    cd Cpp-code-2025
    ```
 2. **Compile a source file** (example for `6 Data Types.cpp`)
